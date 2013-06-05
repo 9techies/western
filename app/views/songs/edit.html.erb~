@@ -1,0 +1,7 @@
+<h1>Editing song</h1>
+<%= link_to 'playlist', playlist_path(@playlist) %><br/>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @song %> |
+<%= link_to 'Back', songs_path %>
